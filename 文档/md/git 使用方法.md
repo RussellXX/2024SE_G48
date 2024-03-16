@@ -40,18 +40,8 @@
 
 
 
+第一次拉取时用 clone，之后可将文件夹保存在本地，想要更新文件夹用 pull 就行了。
 
 
-注：若在 push 的时候发生报错
 
-```
-fatal: Need to specify how to reconcile divergent branches.
-```
-
-请先把你新写的代码或文档保存下来，然后输入指令：
-
-```
-git merge -X theirs
-```
-
-执行后你可能会发现你新写的代码没有了，这时候重新粘贴上去，在 add + commit + push 应该就没问题了
+这样也可能还是会有问题，出问题后可以自学或讨论
