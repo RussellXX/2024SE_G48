@@ -16,10 +16,8 @@
 
 * 在该分支上写文档或代码
 
-* 写完后先在该分支上 add + commit 一发
-
 * ```
-  git checkout -b main 
+  git checkout main 
   ```
 
   切换到主分支
@@ -30,6 +28,12 @@
 
   将之前新建的分支合并到主分支
 
-* 再在主分支上 add、commit 一发，此时加上 push
+* ```
+  git branch -d [分支名]
+  ```
+
+  删除之前建立的分支
+
+* 再 add、commit 、push 一发
 
 * 完成
