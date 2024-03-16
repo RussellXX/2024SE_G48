@@ -37,3 +37,21 @@
 * 再 add、commit 、push 一发
 
 * 完成
+
+
+
+
+
+注：若在 push 的时候发生报错
+
+```
+fatal: Need to specify how to reconcile divergent branches.
+```
+
+请先把你新写的代码或文档保存下来，然后输入指令：
+
+```
+git merge -X theirs
+```
+
+执行后你可能会发现你新写的代码没有了，这时候重新粘贴上去，在 add + commit + push 应该就没问题了
